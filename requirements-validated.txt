@@ -1,0 +1,9 @@
+# Direct dependency versions used for the supplied validation run (Python 3.12.14).
+# For an exact direct-dependency replay: pip install -r requirements-validated.txt
+# Transitive dependencies are resolved by pip; this is not a complete lockfile.
+pandas==3.0.1
+numpy==2.3.5
+openpyxl==3.1.5
+requests==2.34.2
+pytest==9.2.0
+matplotlib==3.11.2

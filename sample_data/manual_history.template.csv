@@ -1,0 +1,4 @@
+fiscal_start,fiscal_end,currency,unit_scale,source,retrieved_at,revenue,net_income,cfo,capex,cash,debt,ebit,da,operating_nwc,diluted_weighted_avg_shares
+YYYY-MM-DD,YYYY-MM-DD,USD,1000000,FILL: filing URL page/note and definitions,YYYY-MM-DD,,,,,,,,,,
+YYYY-MM-DD,YYYY-MM-DD,USD,1000000,FILL: filing URL page/note and definitions,YYYY-MM-DD,,,,,,,,,,
+YYYY-MM-DD,YYYY-MM-DD,USD,1000000,FILL: filing URL page/note and definitions,YYYY-MM-DD,,,,,,,,,,

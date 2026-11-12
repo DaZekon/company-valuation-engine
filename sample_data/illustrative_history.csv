@@ -1,0 +1,4 @@
+fiscal_start,fiscal_end,currency,unit_scale,source,retrieved_at,revenue,net_income,cfo,capex,cash,debt,ebit,da,operating_nwc,diluted_weighted_avg_shares
+2023-01-01,2023-12-31,USD,1000000,ILLUSTRATIVE ONLY - fictional training company; constructed values,2026-11-12,800,72,112,32,60,150,112,24,80,50
+2024-01-01,2024-12-31,USD,1000000,ILLUSTRATIVE ONLY - fictional training company; constructed values,2026-11-12,900,90,133,36,70,145,135,27,90,50
+2025-01-01,2025-12-31,USD,1000000,ILLUSTRATIVE ONLY - fictional training company; constructed values,2026-11-12,1000,110,156,40,80,140,160,30,100,50

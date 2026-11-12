@@ -1,0 +1,40 @@
+{
+  "company": "Illustrative Industrial Co. (fictional)",
+  "ticker": "DEMO",
+  "illustrative": true,
+  "valuation_date": "2025-12-31",
+  "generated_at": "2026-11-12T18:23:54.102185+00:00",
+  "units": "USD millions; shares in millions; per-share value in USD",
+  "cost_of_equity": 0.095,
+  "calculated_wacc": 0.08425000000000002,
+  "recalculation": "Not recalculated by openpyxl. Open and recalculate in Excel or LibreOffice; use verify_cached.py after saving.",
+  "scenarios": {
+    "Bear": {
+      "enterprise_value": 1046.7809366166593,
+      "equity_value": 986.7809366166593,
+      "per_share": 19.735618732333187,
+      "terminal_value": 1143.6117720211987,
+      "terminal_fcff": 90.63123293268002,
+      "pv_terminal": 728.9468117455577,
+      "pv_explicit": 317.8341248711016
+    },
+    "Base": {
+      "enterprise_value": 2438.8048040745766,
+      "equity_value": 2378.8048040745766,
+      "per_share": 47.576096081491535,
+      "terminal_value": 2836.1144779746833,
+      "terminal_fcff": 168.03978282000003,
+      "pv_terminal": 1892.677428031556,
+      "pv_explicit": 546.1273760430206
+    },
+    "Bull": {
+      "enterprise_value": 3819.808285337118,
+      "equity_value": 3759.808285337118,
+      "per_share": 75.19616570674236,
+      "terminal_value": 4572.560485425382,
+      "terminal_fcff": 225.1986039072001,
+      "pv_terminal": 3122.8359647159173,
+      "pv_explicit": 696.9723206212004
+    }
+  }
+}

@@ -1,0 +1,150 @@
+{
+  "company": "FILL: company name",
+  "ticker": "FILL",
+  "industry": "nonfinancial",
+  "illustrative": false,
+  "valuation_date": "YYYY-MM-DD",
+  "reviewed": false,
+  "review_note": "FILL: filing reconciliation, manual inputs and accounting choices",
+  "assumption_source": "FILL: dated rationale and sources for every forecast and capital assumption",
+  "assumption_date": "YYYY-MM-DD",
+  "diluted_shares": null,
+  "shares_source": "",
+  "shares_as_of": "YYYY-MM-DD",
+  "bridge": {
+    "cash_adjustment": null,
+    "debt_adjustment": null,
+    "other_adjustments": null,
+    "source": "FILL: excess cash, debt market value, preferred/NCI/leases/other claims; explain any zero adjustments"
+  },
+  "capital": {
+    "risk_free_rate": null,
+    "beta": null,
+    "equity_risk_premium": null,
+    "cost_of_debt": null,
+    "debt_weight": null,
+    "tax_rate": null
+  },
+  "scenarios": {
+    "Bear": {
+      "growth": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "margin": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "da_ratio": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "capex_ratio": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "nwc_ratio": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "wacc_override": null,
+      "wacc_spread": 0,
+      "terminal_growth": null
+    },
+    "Base": {
+      "growth": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "margin": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "da_ratio": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "capex_ratio": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "nwc_ratio": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "wacc_override": null,
+      "wacc_spread": 0,
+      "terminal_growth": null
+    },
+    "Bull": {
+      "growth": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "margin": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "da_ratio": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "capex_ratio": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "nwc_ratio": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "wacc_override": null,
+      "wacc_spread": 0,
+      "terminal_growth": null
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "company": "Illustrative Industrial Co. (fictional)",
+  "ticker": "DEMO",
+  "industry": "nonfinancial",
+  "illustrative": true,
+  "valuation_date": "2025-12-31",
+  "reviewed": true,
+  "review_note": "Constructed training data only. This is not a public-company analysis. All ratios are hypothetical.",
+  "assumption_source": "Hypothetical educational inputs. No market-derived WACC, beta, forecasts or investment recommendation.",
+  "assumption_date": "2026-11-12",
+  "diluted_shares": 50,
+  "shares_source": "Hypothetical point-in-time fully diluted shares: 50 million as of 2025-12-31, held constant. No real security.",
+  "shares_as_of": "2025-12-31",
+  "bridge": {
+    "cash_adjustment": 80,
+    "debt_adjustment": 140,
+    "other_adjustments": 0,
+    "source": "Hypothetical year-end bridge in USD millions. All cash assumed excess, debt at carrying value assumed equal to market value, no preferred stock/NCI/other claims. Review these assumptions for real companies."
+  },
+  "capital": {
+    "risk_free_rate": 0.04,
+    "beta": 1.1,
+    "equity_risk_premium": 0.05,
+    "cost_of_debt": 0.055,
+    "debt_weight": 0.2,
+    "tax_rate": 0.25
+  },
+  "scenarios": {
+    "Bear": {
+      "growth": [0.02,0.02,0.02,0.02,0.02],
+      "margin": [0.13,0.13,0.13,0.13,0.13],
+      "da_ratio": [0.03,0.03,0.03,0.03,0.03],
+      "capex_ratio": [0.045,0.045,0.045,0.045,0.045],
+      "nwc_ratio": [0.11,0.11,0.11,0.11,0.11],
+      "wacc_override": null,
+      "wacc_spread": 0.01,
+      "terminal_growth": 0.015
+    },
+    "Base": {
+      "growth": [0.08,0.07,0.06,0.05,0.04],
+      "margin": [0.165,0.17,0.175,0.18,0.18],
+      "da_ratio": [0.03,0.03,0.03,0.03,0.03],
+      "capex_ratio": [0.04,0.04,0.04,0.04,0.04],
+      "nwc_ratio": [0.10,0.10,0.10,0.10,0.10],
+      "wacc_override": null,
+      "wacc_spread": 0,
+      "terminal_growth": 0.025
+    },
+    "Bull": {
+      "growth": [0.12,0.10,0.08,0.07,0.06],
+      "margin": [0.18,0.19,0.20,0.21,0.21],
+      "da_ratio": [0.03,0.03,0.03,0.03,0.03],
+      "capex_ratio": [0.04,0.04,0.04,0.04,0.04],
+      "nwc_ratio": [0.09,0.09,0.09,0.09,0.09],
+      "wacc_override": null,
+      "wacc_spread": -0.005,
+      "terminal_growth": 0.03
+    }
+  }
+}

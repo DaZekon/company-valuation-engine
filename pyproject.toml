@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "company-valuation-engine"
+version = "1.0.0"
+description = "Auditable, formula-driven FCFF valuation for educational use"
+requires-python = ">=3.11"
+dynamic = ["dependencies"]
+
+[project.scripts]
+value-company = "valuation_engine.cli:main"
+
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements.txt"]}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

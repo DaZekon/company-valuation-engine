@@ -1,0 +1,269 @@
+{
+  "engine": "@oai/artifact-tool compatible spreadsheet engine",
+  "checks": [
+    {
+      "name": "Bear active EV",
+      "actual": 1046.7809366166593,
+      "expected": 1046.7809366166593,
+      "passed": true
+    },
+    {
+      "name": "Bear active equity",
+      "actual": 986.7809366166593,
+      "expected": 986.7809366166593,
+      "passed": true
+    },
+    {
+      "name": "Bear active per share",
+      "actual": 19.735618732333187,
+      "expected": 19.735618732333187,
+      "passed": true
+    },
+    {
+      "name": "Base active EV",
+      "actual": 2438.8048040745766,
+      "expected": 2438.8048040745766,
+      "passed": true
+    },
+    {
+      "name": "Base active equity",
+      "actual": 2378.8048040745766,
+      "expected": 2378.8048040745766,
+      "passed": true
+    },
+    {
+      "name": "Base active per share",
+      "actual": 47.576096081491535,
+      "expected": 47.576096081491535,
+      "passed": true
+    },
+    {
+      "name": "Bull active EV",
+      "actual": 3819.808285337118,
+      "expected": 3819.808285337118,
+      "passed": true
+    },
+    {
+      "name": "Bull active equity",
+      "actual": 3759.808285337118,
+      "expected": 3759.808285337118,
+      "passed": true
+    },
+    {
+      "name": "Bull active per share",
+      "actual": 75.19616570674236,
+      "expected": 75.19616570674236,
+      "passed": true
+    },
+    {
+      "name": "Sensitivity 0,0",
+      "actual": 3071.9891225210413,
+      "expected": 3071.9891225210413,
+      "passed": true
+    },
+    {
+      "name": "Sensitivity 0,1",
+      "actual": 3356.5815777880857,
+      "expected": 3356.5815777880853,
+      "passed": true
+    },
+    {
+      "name": "Sensitivity 0,2",
+      "actual": 3713.6816649702996,
+      "expected": 3713.6816649702996,
+      "passed": true
+    },
+    {
+      "name": "Sensitivity 0,3",
+      "actual": 4175.044551329802,
+      "expected": 4175.044551329802,
+      "passed": true
+    },
+    {
+      "name": "Sensitivity 0,4",
+      "actual": 4794.138339008794,
+      "expected": 4794.138339008794,
+      "passed": true
+    },
+    {
+      "name": "Sensitivity 1,0",
+      "actual": 2540.1187654954,
+      "expected": 2540.1187654954,
+      "passed": true
+    },
+    {
+      "name": "Sensitivity 1,1",
+      "actual": 2724.6215824288533,
+      "expected": 2724.621582428853,
+      "passed": true
+    },
+    {
+      "name": "Sensitivity 1,2",
+      "actual": 2946.5869002624995,
+      "expected": 2946.5869002624995,
+      "passed": true
+    },
+    {
+      "name": "Sensitivity 1,3",
+      "actual": 3218.713871843862,
+      "expected": 3218.7138718438623,
+      "passed": true
+    },
+    {
+      "name": "Sensitivity 1,4",
+      "actual": 3560.1725559300316,
+      "expected": 3560.1725559300316,
+      "passed": true
+    },
+    {
+      "name": "Sensitivity 2,0",
+      "actual": 2162.271364026601,
+      "expected": 2162.271364026601,
+      "passed": true
+    },
+    {
+      "name": "Sensitivity 2,1",
+      "actual": 2289.778028017594,
+      "expected": 2289.778028017594,
+      "passed": true
+    },
+    {
+      "name": "Sensitivity 2,2",
+      "actual": 2438.8048040745766,
+      "expected": 2438.8048040745766,
+      "passed": true
+    },
+    {
+      "name": "Sensitivity 2,3",
+      "actual": 2615.301953598283,
+      "expected": 2615.301953598284,
+      "passed": true
+    },
+    {
+      "name": "Sensitivity 2,4",
+      "actual": 2827.6360877968555,
+      "expected": 2827.6360877968555,
+      "passed": true
+    },
+    {
+      "name": "Sensitivity 3,0",
+      "actual": 1880.1242842122315,
+      "expected": 1880.1242842122315,
+      "passed": true
+    },
+    {
+      "name": "Sensitivity 3,1",
+      "actual": 1972.3915813465705,
+      "expected": 1972.3915813465705,
+      "passed": true
+    },
+    {
+      "name": "Sensitivity 3,2",
+      "actual": 2077.9826759010307,
+      "expected": 2077.9826759010307,
+      "passed": true
+    },
+    {
+      "name": "Sensitivity 3,3",
+      "actual": 2200.008182059297,
+      "expected": 2200.0081820592973,
+      "passed": true
+    },
+    {
+      "name": "Sensitivity 3,4",
+      "actual": 2342.6287103539803,
+      "expected": 2342.6287103539803,
+      "passed": true
+    },
+    {
+      "name": "Sensitivity 4,0",
+      "actual": 1661.4947977473676,
+      "expected": 1661.4947977473676,
+      "passed": true
+    },
+    {
+      "name": "Sensitivity 4,1",
+      "actual": 1730.6242018530247,
+      "expected": 1730.6242018530243,
+      "passed": true
+    },
+    {
+      "name": "Sensitivity 4,2",
+      "actual": 1808.476559158133,
+      "expected": 1808.476559158133,
+      "passed": true
+    },
+    {
+      "name": "Sensitivity 4,3",
+      "actual": 1896.8140824302595,
+      "expected": 1896.8140824302595,
+      "passed": true
+    },
+    {
+      "name": "Sensitivity 4,4",
+      "actual": 1997.9079267525126,
+      "expected": 1997.9079267525126,
+      "passed": true
+    },
+    {
+      "name": "Blank unselected Bear input preserves Base EV",
+      "actual": 2438.8048040745766,
+      "expected": 2438.8048040745766,
+      "passed": true
+    },
+    {
+      "name": "Blank Bear comparison unavailable",
+      "actual": "n.a.",
+      "expected": "n.a.",
+      "passed": true
+    },
+    {
+      "name": "Blank selected driver suppresses EV",
+      "actual": "n.a.",
+      "expected": "n.a.",
+      "passed": true
+    },
+    {
+      "name": "Missing shares suppresses price",
+      "actual": "n.a.",
+      "expected": "n.a.",
+      "passed": true
+    },
+    {
+      "name": "Missing shares preserves equity",
+      "actual": 2378.8048040745766,
+      "expected": 2378.8048040745766,
+      "passed": true
+    },
+    {
+      "name": "Zero shares suppresses price",
+      "actual": "n.a.",
+      "expected": "n.a.",
+      "passed": true
+    },
+    {
+      "name": "g equals WACC suppresses EV",
+      "actual": "n.a.",
+      "expected": "n.a.",
+      "passed": true
+    },
+    {
+      "name": "Negative first-year EBIT remains in valuation",
+      "actual": 2215.931850419977,
+      "expected": 2215.931850419977,
+      "passed": true
+    },
+    {
+      "name": "Invalid case number suppresses EV",
+      "actual": "n.a.",
+      "expected": "n.a.",
+      "passed": true
+    },
+    {
+      "name": "Restored base EV",
+      "actual": 2438.8048040745766,
+      "expected": 2438.8048040745766,
+      "passed": true
+    }
+  ]
+}
